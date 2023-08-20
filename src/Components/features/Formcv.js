@@ -59,14 +59,14 @@ const Formcv = () => {
           <Form.Control
             as="textarea"
             aria-label="With textarea"
-            style={{ height: "125px" }}
+            style={{ height: "115px" }}
             placeholder="Tell more about you..."
           />
         </Form.Group>
 
         <Form.Group controlId="formGridTemplates">
           <Form.Label>Choose CV template</Form.Label>
-          <Row className="mb-3 mt-3">
+          <Row className="mb-3 mt-2">
             <Button className="mx-3 " as={Col} variant="outline-secondary">
               Template 1
             </Button>
@@ -81,6 +81,17 @@ const Formcv = () => {
         <Form.Group controlId="formFile" className="mb-3">
           <Form.Label>Upload your photo</Form.Label>
           <Form.Control type="file" />
+        </Form.Group>
+        <Form.Group controlId="formGridButton" className="mb-3 ">
+          <Row className="d-flex justify-content-center">
+            <Button
+              className="mx-3 "
+              style={{ width: "125px" }}
+              variant="outline-success"
+            >
+              Submit
+            </Button>
+          </Row>
         </Form.Group>
       </Form>
     </Container>
