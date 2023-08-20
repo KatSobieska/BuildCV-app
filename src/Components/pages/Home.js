@@ -1,4 +1,11 @@
+import { Container } from "react-bootstrap";
+import CarouselHome from "../features/Carousel";
+
 const Home = () => {
-  return <p>HOME</p>;
+  return (
+    <Container>
+      <CarouselHome />
+    </Container>
+  );
 };
 export default Home;
