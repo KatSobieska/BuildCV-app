@@ -1,5 +1,8 @@
 import { Card, Row, Col, Container } from "react-bootstrap";
 import Contact from "../common/Contact";
+import cv from "../../images/cv.webp";
+import libreman from "../../images/libreman.jpeg";
+import resume from "../../images/resume.jpg";
 
 const Info = () => {
   return (
@@ -7,7 +10,7 @@ const Info = () => {
       <Row className="mt-5">
         <Col className="mx-3">
           <Card style={{ width: "350px" }}>
-            <Card.Img variant="top" src={`/images/cv.webp`} />
+            <Card.Img variant="top" src={cv} />
             <Card.Body>
               <Card.Title>Your CV</Card.Title>
               <Card.Text>
@@ -21,7 +24,7 @@ const Info = () => {
         </Col>
         <Col className="mx-3">
           <Card style={{ width: "350px" }}>
-            <Card.Img variant="top" src={`/images/libreman.jpeg`}></Card.Img>
+            <Card.Img variant="top" src={libreman}></Card.Img>
             <Card.Body>
               <Card.Title>Try new way</Card.Title>
               <Card.Text>
@@ -35,7 +38,7 @@ const Info = () => {
         </Col>
         <Col className="mx-3">
           <Card style={{ width: "350px" }}>
-            <Card.Img variant="top" src={`/images/resume.jpg`}></Card.Img>
+            <Card.Img variant="top" src={resume}></Card.Img>
             <Card.Body>
               <Card.Title>New resume</Card.Title>
               <Card.Text>
