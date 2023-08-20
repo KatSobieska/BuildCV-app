@@ -1,8 +1,11 @@
+import { Container } from "react-bootstrap";
+import Header from "./Components/views/Header";
+
 function App() {
   return (
-    <div>
-      <p>HI</p>
-    </div>
+    <Container>
+      <Header />
+    </Container>
   );
 }
 
